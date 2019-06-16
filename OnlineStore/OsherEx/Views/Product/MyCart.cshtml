@@ -1,0 +1,78 @@
+﻿@model OsherEx.Models.MyCartModel
+
+@{
+    ViewBag.Title = "MyCart";
+    Layout = "~/Views/Shared/_MasterPage.cshtml";
+}
+
+@{
+    if (Model == null || Model.Products.Count() == 0)
+    {
+        <div class="container">
+            <div class="h4"> FOR REGISTERED USERS ONLY! 10% Discount!</div>
+            <br />
+            <div class="h5"> Your cart is empty!</div>
+            <div class="btn-outline-primary"><p>@Html.ActionLink("Shop now", "Index", "Home") </p>  </div>
+        </div>
+    }
+    else
+    {
+
+        <div class="container">
+            <div class="h4"> FOR REGISTERED USERS ONLY! 10% Discount!</div>
+            <br />
+            <div class="alert-primary">Total Price:</div>
+            @{
+                if (Request.Cookies["user"] != null)
+                {
+                    <div class="alert-primary">@Model.FullPrice.ToString()$</div>
+                }
+                else
+                {
+                    <div class="alert-primary">@Model.FullPrice.ToString()$</div>
+                }
+                <br /><br />
+
+            }
+        </div>
+        <br /><br />
+        <br /><br />
+
+        <div class="btn-outline-primary"><p>@Html.ActionLink("Buy now", "BuyNow", "Product", Model.Products, null) </p>  </div>
+        <div class="btn-outline-primary"><p>@Html.ActionLink("Remove all items from Cart", "RemoveAll", "Product", Model.Products) </p>  </div>
+        <br /><br />
+
+        <div class="card-columns">
+            @foreach (var c in Model.Products)
+                {
+                <div class="row">
+                    <div class="flex-container">
+
+                        <div class="card" style="width: 15rem;">
+                            @{if (c.Picture1 != null)
+                    { <img style="height:250px;" class="img-fluid" src="data:image/jpeg;base64,@Convert.ToBase64String(c.Picture1, 0, c.Picture1.Length)"> }
+
+                    else if (c.Picture1 == null && c.Picture2 != null)
+                    { <img style="height:250px;" class="img-fluid" src="data:image/jpeg;base64,@Convert.ToBase64String(c.Picture2, 0, c.Picture2.Length)"> }
+
+                    else if (c.Picture1 == null && c.Picture2 == null && c.Picture3 != null)
+                    { <img style="height:250px;" class="img-fluid" src="data:image/jpeg;base64,@Convert.ToBase64String(c.Picture3, 0, c.Picture3.Length)"> }
+
+                                else if (c.Picture1 == null && c.Picture2 == null && c.Picture3 == null)
+                                { <img style="height:250px;" class="img-fluid" src="~/Assets/Image-not-available_1.jpg"> }
+                            }
+                            <div class="card-body">
+                                <h5 class="card-title">@c.Title </h5>
+                                <p>@c.Price$</p>
+                                <p class="badge-danger">@c.Category</p>
+                                <div><p> @Html.ActionLink("Delete item from cart", "DeleteItemFromCart", "Product", new { id = c.Id }, null)  </div>
+                                <div> <p>@Html.ActionLink("Check Details", "ProductDetails", "Product", new { id = c.Id }, null) </p> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                }
+        </div>
+                                }
+}
+@Html.Raw(TempData["message"])

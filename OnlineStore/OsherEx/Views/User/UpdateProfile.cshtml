@@ -1,0 +1,75 @@
+﻿@model OsherEx.Models.UserModel
+
+@{
+    ViewBag.Title = "UpdateProfile";
+    Layout = "~/Views/Shared/_MasterPage.cshtml";
+}
+
+<p class="alert-success">UpdateProfile</p>
+@using (Html.BeginForm("UserToUpdate", "User"))
+{
+    <table cellpadding="1" cellspacing="1">
+
+
+        <tr>
+            <td>
+                <label for="UserName">User Name:</label>
+            </td>
+            <td>
+                <input type="text" readonly class="form-control-plaintext" id="staticUserName" value="@Model.UserName.ToString()">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="FirstName">Update Email:</label>
+            </td>
+            <td>
+                @Html.EditorFor(m => m.Email, new { htmlAttributes = new { Value = Model.Email } })
+            </td>
+            <td>
+                @Html.ValidationMessageFor(model => model.Email)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="FirstName">Update First Name:</label>
+            </td>
+            <td>
+                @Html.EditorFor(m => m.FirstName, new { htmlAttributes = new { Value = Model.FirstName } })
+            </td>
+            <td>
+                @Html.ValidationMessageFor(model => model.FirstName)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="FirstName">Update Last Name:</label>
+            </td>
+            <td>
+                @Html.EditorFor(m => m.LastName, new { htmlAttributes = new { Value = Model.LastName } })
+            </td>
+            <td>
+                @Html.ValidationMessageFor(model => model.LastName)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Password">New Birth Date:</label>
+            </td>
+            <td>
+                @Html.EditorFor(p => p.BirthDate)
+            </td>
+            <td>
+                @Html.ValidationMessageFor(p => p.BirthDate)
+            </td>
+        </tr>
+        <tr><td><button type="submit" class="btn btn-primary">Submit Changes</button></td></tr>
+        </table>
+        }
+<table>
+           <tr><td>
+                <input type="button" class="btn btn-primary" value="Change Password" onclick="@("window.location.href='" + @Url.Action("ChangePassword", "User") + "'");" />
+            </td></tr>
+    </table>
+
+@Html.Raw(TempData["message"])

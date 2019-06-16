@@ -1,0 +1,183 @@
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\ApplicationInsights.config
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\roslyn\csc.exe
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\roslyn\System.Collections.Immutable.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\roslyn\vbc.exe
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\roslyn\VBCSCompiler.exe
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\roslyn\VBCSCompiler.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\OsherEx.dll.config
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\OsherEx.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\OsherEx.pdb
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\EntityFramework.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\EntityFramework.SqlServer.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\Microsoft.AI.Web.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\Microsoft.AI.WindowsServer.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\Microsoft.ApplicationInsights.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\Microsoft.Web.Infrastructure.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\OsherEx.DAL.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\System.Web.Helpers.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\System.Web.Mvc.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\System.Web.Razor.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\System.Web.Webpages.Deployment.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\System.Web.Webpages.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\System.Web.Webpages.Razor.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\OsherEx.DAL.pdb
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\EntityFramework.xml
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\EntityFramework.SqlServer.xml
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\Microsoft.AI.Web.xml
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\Microsoft.AI.WindowsServer.xml
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\Microsoft.ApplicationInsights.xml
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\System.Web.Razor.xml
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\System.Web.Webpages.xml
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\System.Web.Webpages.Deployment.xml
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\System.Web.Webpages.Razor.xml
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\System.Web.Helpers.xml
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\bin\System.Web.Mvc.xml
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\obj\Debug\OsherEx.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\obj\Debug\OsherEx.dll
+c:\users\pc\documents\visual studio 2015\Projects\OsherEx\OsherEx\obj\Debug\OsherEx.pdb
+C:\Users\PC\Documents\Visual Studio 2015\Projects\OsherEx\OsherEx\bin\Antlr3.Runtime.dll
+C:\Users\PC\Documents\Visual Studio 2015\Projects\OsherEx\OsherEx\bin\Newtonsoft.Json.dll
+C:\Users\PC\Documents\Visual Studio 2015\Projects\OsherEx\OsherEx\bin\System.Web.Optimization.dll
+C:\Users\PC\Documents\Visual Studio 2015\Projects\OsherEx\OsherEx\bin\WebGrease.dll
+C:\Users\PC\Documents\Visual Studio 2015\Projects\OsherEx\OsherEx\bin\Antlr3.Runtime.pdb
+C:\Users\PC\Documents\Visual Studio 2015\Projects\OsherEx\OsherEx\bin\Newtonsoft.Json.xml
+C:\Users\PC\Documents\Visual Studio 2015\Projects\OsherEx\OsherEx\bin\System.Web.Optimization.xml
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\ApplicationInsights.config
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\roslyn\csc.exe
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\roslyn\System.Collections.Immutable.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\roslyn\System.Reflection.Metadata.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\roslyn\vbc.exe
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\roslyn\VBCSCompiler.exe
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\roslyn\VBCSCompiler.exe.config
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\OsherEx.dll.config
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\OsherEx.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\OsherEx.pdb
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\Antlr3.Runtime.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\EntityFramework.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\EntityFramework.SqlServer.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\Microsoft.AI.Agent.Intercept.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\Microsoft.AI.DependencyCollector.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\Microsoft.AI.Web.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\Microsoft.AI.WindowsServer.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\Microsoft.ApplicationInsights.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\Microsoft.Web.Infrastructure.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\Newtonsoft.Json.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\OsherEx.DAL.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\System.Web.Helpers.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\System.Web.Mvc.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\System.Web.Optimization.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\System.Web.Razor.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\System.Web.Webpages.Deployment.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\System.Web.Webpages.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\System.Web.Webpages.Razor.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\WebGrease.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\OsherEx.DAL.pdb
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\OsherEx.DAL.dll.config
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\Antlr3.Runtime.pdb
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\EntityFramework.xml
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\EntityFramework.SqlServer.xml
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\Microsoft.AI.DependencyCollector.xml
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\Microsoft.AI.Web.xml
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\Microsoft.AI.WindowsServer.xml
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\Microsoft.ApplicationInsights.xml
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\Newtonsoft.Json.xml
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\System.Web.Optimization.xml
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\System.Web.Razor.xml
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\System.Web.Webpages.xml
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\System.Web.Webpages.Deployment.xml
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\System.Web.Webpages.Razor.xml
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\System.Web.Helpers.xml
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\bin\System.Web.Mvc.xml
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\obj\Debug\OsherEx.csprojAssemblyReference.cache
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\obj\Debug\OsherEx.csproj.CoreCompileInputs.cache
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\obj\Debug\OsherEx.csproj.CopyComplete
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\obj\Debug\OsherEx.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx\obj\Debug\OsherEx.pdb
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\ApplicationInsights.config
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\roslyn\csc.exe
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\roslyn\vbc.exe
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\roslyn\VBCSCompiler.exe
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\OsherEx.dll.config
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\OsherEx.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\OsherEx.pdb
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\Antlr3.Runtime.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\EntityFramework.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\EntityFramework.SqlServer.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\Microsoft.AI.Web.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\Microsoft.ApplicationInsights.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\Newtonsoft.Json.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\OsherEx.DAL.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\System.Web.Helpers.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\System.Web.Mvc.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\System.Web.Optimization.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\System.Web.Razor.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\System.Web.Webpages.Deployment.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\System.Web.Webpages.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\System.Web.Webpages.Razor.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\WebGrease.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\OsherEx.DAL.pdb
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\OsherEx.DAL.dll.config
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\Antlr3.Runtime.pdb
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\EntityFramework.xml
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\EntityFramework.SqlServer.xml
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\Microsoft.AI.Web.xml
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\Microsoft.ApplicationInsights.xml
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\Newtonsoft.Json.xml
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\System.Web.Optimization.xml
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\System.Web.Razor.xml
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\System.Web.Webpages.xml
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\System.Web.Webpages.Deployment.xml
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\System.Web.Webpages.Razor.xml
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\System.Web.Helpers.xml
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\bin\System.Web.Mvc.xml
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\obj\Debug\OsherEx.csprojAssemblyReference.cache
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\obj\Debug\OsherEx.csproj.CoreCompileInputs.cache
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\obj\Debug\OsherEx.csproj.CopyComplete
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\obj\Debug\OsherEx.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx\obj\Debug\OsherEx.pdb

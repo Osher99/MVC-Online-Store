@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <script src="~/scripts/jquery-3.0.0.min.js"></script>
+    <script src="~/scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <link href="~/Content/bootstrap-grid.css" rel="stylesheet" />
+<link href="~/Content/bootstrap-grid.min.css" rel="stylesheet" />
+<link href="~/Content/bootstrap-reboot.css" rel="stylesheet" />
+<link href="~/Content/bootstrap-reboot.min.css" rel="stylesheet" />
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<link href="~/Styles/common.css" rel="stylesheet" />
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand"><div class="container" style="width:255px; height:-500px; padding-top:-100px">
+
+    <img class="img-fluid text-left" src="~/Assets/logo.png" onclick="location.href='@Url.Action("Index", "Home")'" style="margin-left:-32px; margin-top:-40px; image-resolution:initial">
+</div>
+</a>   
+        </nav>
+    <div class="container-fluid text-right">
+        <div class="row content">
+            <div class="col-sm-2 sidenav" style="height:auto">
+                <div style="background-color:white">
+                    @Html.Partial("_LoginPartialView", new OsherEx.Models.LogInModel())
+                </div>
+                <div style="background-color:white">
+                    @Html.Partial("_GuestLinksPartialView")
+                </div>
+            </div>
+            <div class="col-sm-10" style="font-size:18px; ">
+                <div id="mainwindow">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+

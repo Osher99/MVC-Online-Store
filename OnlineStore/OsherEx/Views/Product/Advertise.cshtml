@@ -1,0 +1,88 @@
+﻿@model OsherEx.Models.ProductModel
+
+@{
+    ViewBag.Title = "Advertise";
+    Layout = "~/Views/Shared/_MasterPage.cshtml";
+}
+
+@using (Html.BeginForm("AddNewProduct", "Product", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <p class="alert-primary">Add your product to OsherBuy!</p>
+
+    <table cellpadding="1" cellspacing="1">
+        <tr>
+            <td>@Html.LabelFor(p => p.Title)</td>
+            <td>
+                @Html.EditorFor(p => p.Title)
+            </td>
+            <td>
+                @Html.ValidationMessageFor(p => p.Title)
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(p => p.Category)</td>
+            <td>
+                @Html.EnumDropDownListFor(p => p.Category)
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(p => p.ShortDescription)</td>
+            <td>
+                @Html.EditorFor(m => m.ShortDescription)
+            </td>
+            <td>
+                @Html.ValidationMessageFor(p => p.ShortDescription)
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(p => p.LongDescription)</td>
+            <td>
+                @Html.TextAreaFor(m => m.LongDescription, 5,20, null)
+            </td>
+            <td>
+                @Html.ValidationMessageFor(p => p.LongDescription)
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(p => p.Price)</td>
+            <td>
+                @Html.EditorFor(m => m.Price)
+            </td>
+            <td>
+                @Html.ValidationMessageFor(p => p.Price)
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(p => p.Picture1)</td>
+            <td>
+                <input type="file" name="image1" accept="image"/>
+            </td>
+            <td>
+                @Html.ValidationMessageFor(p => p.Picture1)
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(p => p.Picture2)</td>
+            <td>
+                <input type="file" name="image2" accept="image"/>
+            </td>
+            <td>
+                @Html.ValidationMessageFor(p => p.Picture2)
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(p => p.Picture3)</td>
+            <td>
+                <input type="file" name="image3" accept="image"/>
+            </td>
+            <td>
+                @Html.ValidationMessageFor(p => p.Picture3)
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Publish now" class="btn-primary" /></td>
+        </tr>
+    </table>
+}
+@Html.Raw(TempData["message"])
+

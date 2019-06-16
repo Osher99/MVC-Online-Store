@@ -1,0 +1,35 @@
+﻿@model OsherEx.Models.LogInModel
+
+    @if (Request.Cookies["user"] == null)
+    {
+    <div>
+        @using (Html.BeginForm("Signin", "User"))
+        {            <div>
+
+
+            <p class="alert-dark">@Html.LabelFor(p => p.UserName)</p>
+                         <p>@Html.EditorFor(p => p.UserName)</p>
+                         <p>@Html.ValidationMessageFor(p => p.UserName)</p>
+
+<p class="alert-dark">@Html.LabelFor(p => p.Password)</p>
+           <p>@Html.EditorFor(p => p.Password)</p>
+                         <p>@Html.ValidationMessageFor(p => p.Password)</p>
+
+
+        </div>
+               <p><input type="submit" class="btn btn-primary" value="Log in"/></p> 
+        }
+            <p>
+                <input type="button" value="Register"  class="btn btn-primary" onclick="@("window.location.href='" + @Url.Action("Registery", "User") + "'");" />
+           </p>
+        
+    </div>
+    }
+    else
+    {
+        <p>
+            Welcome @Request.Cookies["user"]["UserName"]</p>
+            <p>
+                <input type="submit" class="btn btn-primary" value="Log Out" onclick="location.href='@Url.Action("DeleteCookie", "User")'" />
+            </p>
+    }

@@ -1,0 +1,47 @@
+﻿html { 
+    background-color: black;
+}
+.header {
+    background: white;
+    color: white;
+    align-items: flex-start;
+}
+.wrapper {
+    width: 850px;
+}
+h1 {
+    margin: 0;
+    height: 96px;
+}
+.nav {
+    padding-right: 55px;
+    background: #742500;
+    color: white;
+
+}
+.main{
+        padding-right: 55px;
+    width:600px;
+    height: 400px;
+    padding: 10px;
+    background: white;
+}
+h2{
+    margin: 0 0 1em;
+}
+.sidebar{
+    float: left;
+    width:200px;
+    height: 400px;
+    padding:10px;
+    background: white;
+}
+.footer{
+    clear:both;
+    padding: 5px, 10px;
+    background: white;
+    height: 58px;
+}
+.footer p {
+    margin:0;
+}

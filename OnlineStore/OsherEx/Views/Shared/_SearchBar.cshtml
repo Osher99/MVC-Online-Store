@@ -1,0 +1,12 @@
+﻿@model OsherEx.Models.ProductDetailsModel
+
+<p>
+    @using (Html.BeginForm("Search", "Home", FormMethod.Post))
+    {
+        <input type="text" name="searchData" placeholder="Search..." onfocus="this.value = ''">
+        @Html.EnumDropDownListFor(m => m.Category, "All Categories", new { @class = "btn : btn btn-danger : form - control ", @style = "margin:auto" })
+        <button type="submit" class="btn-success">Search</button>
+    <button type="button" class="alert-primary" onclick="location.href='@Url.Action("Index", "Home")'">All Products</button>
+
+    }
+</p>

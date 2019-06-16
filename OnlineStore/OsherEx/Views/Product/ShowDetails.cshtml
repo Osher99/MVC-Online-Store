@@ -1,0 +1,84 @@
+﻿@model OsherEx.Models.ProductDetailsModel
+
+@{
+    ViewBag.Title = "ShowDetails";
+    Layout = "~/Views/Shared/_MasterPage.cshtml";
+}
+<div class="card-deck">
+    @if (Model.Picture1 != null)
+            {            <div class="card">
+      <img class="img-fluid" src="data:image/jpeg;base64,@Convert.ToBase64String(Model.Picture1,0,Model.Picture1.Length)">
+    </div>}
+
+    @if (Model.Picture2 != null)
+    {<div class="card">
+        <img class="img-fluid" src="data:image/jpeg;base64,@Convert.ToBase64String(Model.Picture2,0,Model.Picture2.Length)">
+    </div> }
+    @if (Model.Picture3 != null)
+    { <div class="card">
+        <img class="img-fluid" src="data:image/jpeg;base64,@Convert.ToBase64String(Model.Picture3,0,Model.Picture3.Length)">
+    </div>}
+    </div>
+
+<p class="ParaLarge">@Model.Title</p>
+<div>
+        <p class="ParaLarge">Owner information:</p>
+    <p>Email: @Model.Email</p>
+
+    <p>
+        Full name: @Model.FirstName @Model.LastName
+    </p>
+    <p>
+        User Name: @Model.UserName
+    </p>
+    <p>
+
+        @Model.BirthDate.ToLongDateString()
+    </p>
+    <p>
+
+        Published time: @Model.PublishedTime.ToLongDateString()
+    </p>
+
+    <br />
+</div>
+   <p class="badge-danger">@Model.Category</p>
+    <br />
+    <p class="d-xl-table">@Model.ShortDescription</p>
+    <br />
+    <p class="d-lg-table-row">@Model.LongDescription</p>
+    <br />
+    <p class="alert-info">
+    Is Available?:@{
+
+        if (Model.State == OsherEx.DAL.Models.State.Available)
+        { <text>Available</text> }
+        else if (Model.State == OsherEx.DAL.Models.State.Incart)
+        {  <text>A member or a guest is currently hold the item in their cart, try again later</text>
+        <p class="ParaLarge">
+    @Html.ActionLink("Return to Cart", "MyCart", "Product")
+</p>}
+            else
+            { <text>The item has been sold</text> }
+
+
+    }
+    <br />
+    <p class="ParaLarge">Price: @Model.Price$</p>
+    <br />
+@{
+    if (Model.State == OsherEx.DAL.Models.State.Available)
+    {
+        <div class="btn-outline-primary"><p class="ParaLarge"> @Html.ActionLink("Add To Cart", "AddToCart", "Product", new { id = Model.Id }, null) 
+ </p>  </div>
+    }
+    else
+    {
+        @Html.Display("Item either Sold or In cart at the moment")
+    }
+}
+<br />
+<br />
+<br />
+
+<link href="~/Styles/common.css" rel="stylesheet" />

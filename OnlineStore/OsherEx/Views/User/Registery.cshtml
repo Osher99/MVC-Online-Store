@@ -1,0 +1,83 @@
+﻿@model OsherEx.Models.UserModel
+
+@{
+    ViewBag.Title = "Registery";
+    Layout = "~/Views/Shared/_MasterPage.cshtml";
+}
+
+@using (Html.BeginForm("UserToRegister", "User"))
+{
+    <p class="alert-primary">Register to OsherBuy!</p>
+    <form id="myform">
+        <table cellpadding="1" cellspacing="1">
+
+            <tr>
+                <td>@Html.LabelFor(p => p.UserName)</td>
+                <td>
+                    @Html.TextBoxFor(p => p.UserName)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(m => m.UserName)
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(p => p.FirstName)</td>
+                <td>
+                    @Html.EditorFor(m => m.FirstName)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(m => m.FirstName)
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(p => p.LastName)</td>
+                <td>
+                    @Html.EditorFor(m => m.LastName)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(m => m.LastName)
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(p => p.BirthDate)</td>
+                <td>
+                    @Html.EditorFor(m => m.BirthDate)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(m => m.BirthDate)
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(p => p.Email)</td>
+                <td>
+                    @Html.EditorFor(p => p.Email)</td>
+                <td>
+                    @Html.ValidationMessageFor(m => m.Email)
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(p => p.Password)</td>
+                <td>
+                    @Html.EditorFor(m => m.Password)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(m => m.Password)
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(p => p.ConfirmPassowrd)</td>
+                <td>
+                    @Html.EditorFor(m => m.ConfirmPassowrd)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(m => m.ConfirmPassowrd)
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit" id="submitbutton">Submit</button></td>
+            </tr>
+        </table>
+    </form>
+  }
+@Html.Raw(TempData["message"])

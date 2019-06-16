@@ -1,0 +1,28 @@
+﻿@model IEnumerable<OsherEx.Models.ProductPartialView>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MasterPage.cshtml";
+}
+
+    <div class="filterby">
+        <p>
+            Order by:
+            <button type="button" class="btn-danger" onclick="location.href='@Url.Action("FilterBy", "Home", new { filter = "ByName" })'">By Name</button>
+            <button type="button" class="btn-danger" onclick="location.href='@Url.Action("FilterBy", "Home", new {filter = "LowestPrice"})'">By Lowest Price</button>
+            <button type="button" class="btn-danger" onclick="location.href='@Url.Action("FilterBy", "Home", new {filter = "HighestPrice"})'">By Highest Price</button>
+            <button type="button" class="btn-danger" onclick="location.href='@Url.Action("FilterBy", "Home", new {filter = "Newest"})'">Newest</button>
+            <button type="button" class="btn-danger" onclick="location.href='@Url.Action("FilterBy", "Home", new {filter = "Oldest"})'">Oldest</button>
+        </p>
+    @Html.Partial("_SearchBar", new OsherEx.Models.ProductDetailsModel())
+    </div>
+
+    <div class="flex-container">
+        @foreach (var c in Model)
+        {
+            @Html.Partial("_ProductListPartialView", c)
+        }
+    </div>
+
+
+    @Html.Raw(TempData["message"])

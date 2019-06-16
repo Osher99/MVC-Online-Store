@@ -1,0 +1,44 @@
+﻿<link href="~/Styles/common.css" rel="stylesheet" />
+<div>
+            <p class="alert-danger">Navigation:</p>
+    <p>
+        <ul class="list-group">
+            <li class="list-group-item ">
+                @Html.ActionLink("Our Products", "Index", "Home")
+            </li>
+            <li class="list-group-item ">
+                @Html.ActionLink("About Us", "AboutUs", "Home")
+            </li>
+            <li class="list-group-item ">
+                @Html.ActionLink("My Cart", "MyCart", "Product")
+            </li>
+
+            @{if (Request.Cookies["user"] != null)
+                {
+                    <li class="list-group-item ">
+                        @Html.ActionLink("Update Profile", "UpdateProfile", "User")
+                    </li>
+                                <li class="list-group-item ">
+                                    @Html.ActionLink("Advertise", "Advertise", "Product")
+                                </li>
+                }
+            }
+        </ul>
+    </p>
+
+    <div class="border-info">
+        <p type="button" class="alert-primary" onclick="location.href='@Url.Action("ProductDetails", "Product", new { id = 7 })'">FIFA 19 ON SALE NOW !!!</p>
+        <img class="img-fluid text-left" src="~/Assets/Fifa19ad.gif" onclick="location.href='@Url.Action("ProductDetails", "Product", new { id = 7 })'">
+    </div>
+    <br/>
+    <div class="border-info">
+        <p type="button" class="alert-primary" onclick="location.href='@Url.Action("ProductDetails", "Product", new { id = 6 })'">Apple's IPhoneXS MAX!</p>
+        <img class="img-fluid text-left" src="~/Assets/xsmax.gif" onclick="location.href='@Url.Action("ProductDetails", "Product", new { id = 6 })'">
+    </div>
+    <br />
+    <div class="border-info">
+        <p type="button" class="alert-primary" onclick="location.href='@Url.Action("ProductDetails", "Product", new { id = 4 })'">The New AIR NIKE!</p>
+        <img class="img-fluid text-left" src="~/Assets/200.gif" onclick="location.href='@Url.Action("ProductDetails", "Product", new { id = 4 })'">
+    </div>
+</div>
+    

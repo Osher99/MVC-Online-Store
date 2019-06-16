@@ -1,0 +1,33 @@
+c:\Users\PC\documents\visual studio 2015\Projects\OsherEx\OsherEx.DAL\bin\Debug\OsherEx.DAL.dll.config
+c:\Users\PC\documents\visual studio 2015\Projects\OsherEx\OsherEx.DAL\bin\Debug\OsherEx.DAL.dll
+c:\Users\PC\documents\visual studio 2015\Projects\OsherEx\OsherEx.DAL\bin\Debug\OsherEx.DAL.pdb
+c:\Users\PC\documents\visual studio 2015\Projects\OsherEx\OsherEx.DAL\bin\Debug\EntityFramework.dll
+c:\Users\PC\documents\visual studio 2015\Projects\OsherEx\OsherEx.DAL\bin\Debug\EntityFramework.SqlServer.dll
+c:\Users\PC\documents\visual studio 2015\Projects\OsherEx\OsherEx.DAL\bin\Debug\EntityFramework.xml
+c:\Users\PC\documents\visual studio 2015\Projects\OsherEx\OsherEx.DAL\bin\Debug\EntityFramework.SqlServer.xml
+c:\Users\PC\documents\visual studio 2015\Projects\OsherEx\OsherEx.DAL\obj\Debug\OsherEx.DAL.dll
+c:\Users\PC\documents\visual studio 2015\Projects\OsherEx\OsherEx.DAL\obj\Debug\OsherEx.DAL.pdb
+C:\Users\PC\Documents\Visual Studio 2015\Projects\OsherEx\OsherEx.DAL\obj\Debug\OsherEx.DAL.csprojResolveAssemblyReference.cache
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx.DAL\bin\Debug\OsherEx.DAL.dll.config
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx.DAL\bin\Debug\OsherEx.DAL.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx.DAL\bin\Debug\OsherEx.DAL.pdb
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx.DAL\bin\Debug\EntityFramework.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx.DAL\bin\Debug\EntityFramework.xml
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx.DAL\obj\Debug\OsherEx.DAL.csproj.CoreCompileInputs.cache
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx.DAL\obj\Debug\OsherEx.DAL.csproj.CopyComplete
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx.DAL\obj\Debug\OsherEx.DAL.dll
+D:\DataFromOldLenovo\לימודים\Projects\OsherEx\OsherEx.DAL\obj\Debug\OsherEx.DAL.pdb
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx.DAL\bin\Debug\OsherEx.DAL.dll.config
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx.DAL\bin\Debug\OsherEx.DAL.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx.DAL\bin\Debug\OsherEx.DAL.pdb
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx.DAL\bin\Debug\EntityFramework.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx.DAL\bin\Debug\EntityFramework.xml
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx.DAL\obj\Debug\OsherEx.DAL.csprojAssemblyReference.cache
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx.DAL\obj\Debug\OsherEx.DAL.csproj.CoreCompileInputs.cache
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx.DAL\obj\Debug\OsherEx.DAL.csproj.CopyComplete
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx.DAL\obj\Debug\OsherEx.DAL.dll
+C:\Users\osher\OneDrive\Desktop\GITProjects\Asp.MVC-Online-Store\MVC-Online-Store\OnlineStore\OsherEx.DAL\obj\Debug\OsherEx.DAL.pdb

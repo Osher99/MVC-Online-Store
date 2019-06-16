@@ -1,0 +1,122 @@
+﻿.navbar {
+    margin-bottom:0;
+    border-radius:0;
+}
+
+.row.content {height:  450px}
+
+.sidenav {
+    padding-top: 20px;
+    background-color: #F1F1F1;
+    height: 100%;
+}
+
+footer {
+        background-color: #555;
+        color: white;
+        padding:15px;
+
+}
+
+p{
+    font-size:14px;
+    text-align: center;
+        font-weight: bold;
+}
+.ParaLarge{
+    font-size:25px;
+    text-align: center;
+    align-items: center;
+        font-weight: bold;
+        font-family:Tahoma;
+}
+
+.mypara {
+    font-weight: bold;
+    font-size:14px;
+    text-align: center;
+}
+
+td{
+    padding-right: 20px;
+        padding-bottom: 15px;
+
+}   
+.tdcenter{
+        align-items: center;
+        font-weight: bold;
+}
+h6{
+    text-align: center;
+    align-items: center;
+}
+.logo {
+position:absolute;
+right:25%;
+top:0px;
+width:30%;
+height:auto;
+}
+
+.container {
+    width: 200px;
+    height: 120px;
+}
+
+/* resize images */
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.imgStyle {
+  display: block;
+  max-width:230px;
+  max-height:95px;
+  width: auto;
+  height: auto;
+}
+
+.bigPara{
+    font-size:25px;
+    text-align: center;
+        font-weight: bold;
+}
+
+.bigParaVersion{
+    font-size:18px;
+    text-align: center;
+        font-weight: bold;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    font-size:10px;
+    align-items: center;
+}
+h5{
+    align-items:center;
+}
+
+table{
+    align-items: center;
+}
+
+.filterby{
+    font-weight: bold;
+    align-items: center;
+        font-size:18px;
+        text-align: center;
+}
+
+.searchnav{
+    font-weight: bold;
+    align-items: center;
+        text-align: center;
+}
+
+.card-title{
+        font-weight: bold;
+        align-items: center;
+        text-align: center;
+}

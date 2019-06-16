@@ -1,0 +1,26 @@
+﻿@model OsherEx.Models.ProductPartialView
+
+
+    <div class="card" style="width: 15rem; ">
+        @{if (Model.Picture1 != null)
+            { <img style="height:250px;" class="img-fluid" src="data:image/jpeg;base64,@Convert.ToBase64String(Model.Picture1,0,Model.Picture1.Length)"> }
+
+            else if (Model.Picture1 == null && Model.Picture2 != null)
+            {<img style="height:250px;" class="img-fluid" src="data:image/jpeg;base64,@Convert.ToBase64String(Model.Picture2,0,Model.Picture2.Length)"> }
+
+            else if (Model.Picture1 == null && Model.Picture2 == null && Model.Picture3 != null)
+            { <img style="height:250px;" class="img-fluid" src="data:image/jpeg;base64,@Convert.ToBase64String(Model.Picture3,0,Model.Picture3.Length)"> }
+
+            else if (Model.Picture1 == null && Model.Picture2 == null && Model.Picture3 == null)
+            { <img style="height:250px;" class="img-fluid" src="~/Assets/Image-not-available_1.jpg"> }
+        }
+        <div class="card-body" >
+            <p class="filterby">@Model.Title</p>
+            <p>@Model.Price$</p>
+            <p class="badge-danger">@Model.Category</p>
+            <p> @Html.ActionLink("Show Details", "ProductDetails", "Product", new { id = Model.Id }, null ) </p>
+            <p> @Html.ActionLink("Add To Cart", "AddToCart", "Product", new { id = Model.Id }, null)  </p>
+        </div>
+    </div>
+
+<link href="~/Styles/common.css" rel="stylesheet" />
